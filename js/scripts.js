@@ -26,6 +26,5 @@ $(document).ready(function() {
     }
 
     $(".quiz").hide();
-    // $(".results").show();
   });
 });
