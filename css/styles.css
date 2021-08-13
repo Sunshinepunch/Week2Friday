@@ -1,0 +1,26 @@
+body {
+  font-family: 'Harry Potter', sans-serif;
+}
+#quizzle {
+  max-width: 800px;
+}
+
+.quiz {
+  display: none;
+}
+
+.results {
+  display: none;
+}
+
+#harry {
+  display: none;
+}
+
+#ron {
+  display: none;
+}
+
+#hermione {
+  display: none;
+}
