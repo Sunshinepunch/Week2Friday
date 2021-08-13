@@ -30,3 +30,15 @@ $(document).ready(function() {
     $(".quiz").hide();
   });
 });
+
+//* needs fitting in and editing
+$(document).ready(function() {
+  $(".clickable").click(function() {
+    $("#initially-showing").toggle();
+    $("#initially-hidden").toggle();
+  });
+  $( "#clickme" ).click(function() {
+    $( "#walrus" ).slideUp( "slow", "linear", function() {
+    });
+  });
+});
