@@ -5,6 +5,11 @@ body {
   max-width: 800px;
 }
 
+.btn {
+  background-color: chartreuse;
+  border-radius: 10px;
+}
+
 .quiz {
   display: none;
 }
