@@ -4,7 +4,7 @@
 
 #### By _{Becket Harvey}_
 
-## _Github Pages link_ https://sunshinepunch.github.io/Week2Friday/
+## _Github Link_ https://sunshinepunch.github.io/Week2Friday/
 
 ## Technologies Used
 
@@ -17,7 +17,7 @@
 * _Bootstrap_
 
 ## Description
-* _This project is a quiz that helps the user determine which of three programming languages (python, javascript, and C#) would be a good fit based on their answers to different questions. It uses branching functions and assigns a point amount to each answer. At the end of the quiz, the user submits their total via button and the page returns an answer based on the point total. 
+* _This project is a quiz that helps the user determine which of three programming languages (python, javascript, and C#) would be a good fit based on their answers to different questions. It uses branching functions and assigns a point amount to each answer. At the end of the quiz, the user submits their total via button and the page returns an answer based on the point total.
 ## Setup/Installation Requirements
 * A browser is all that is required. Simply run the index.html file and answer the questions! Note* There is no accessibility added for sight impaired users, but functionality will be updated once I learn how!
 
