@@ -8,6 +8,14 @@ $(document).ready(function () {
     $(".intro").hide();
     $(".quiz").show();
   });
+  $("button").click(function(){
+    $("img").fadeOut("slow", function() {
+    $("img").fadeIn("fast");
+    });
+
+  })
+
+
 
   $("form#quiz").submit(function (event) {
     event.preventDefault();
@@ -17,6 +25,9 @@ $(document).ready(function () {
     let answer4 = parseInt($("input:radio[name=ques4]:checked").val());
     let answer5 = parseInt($("input:radio[name=ques5]:checked").val());
     let result = add(answer1, answer2, answer3, answer4, answer5);
+
+    const username = $("input#username").val();
+    $(".username").text(username);
 
     if (result <= 5) {
       $("#python").show();
@@ -29,15 +40,3 @@ $(document).ready(function () {
     $(".quiz").hide();
   });
 });
-
-//* needs fitting in and editing
-// $(document).ready(function() {
-//   $(".clickable").click(function() {
-//     $("#initially-showing").toggle();
-//     $("#initially-hidden").toggle();
-//   });
-//   $( "#clickme" ).click(function() {
-//     $( "#walrus" ).slideUp( "slow", "linear", function() {
-//     });
-//   });
-// });
