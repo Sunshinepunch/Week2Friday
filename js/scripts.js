@@ -1,16 +1,15 @@
-function add (answer1,answer2,answer3,answer4,answer5) {
-  return (answer1 + answer2 + answer3 + answer4 + answer5);
+function add(answer1, answer2, answer3, answer4, answer5) {
+  return answer1 + answer2 + answer3 + answer4 + answer5;
 }
 
-
-$(document).ready(function() {
-  $("form#intro").submit(function(event) {
+$(document).ready(function () {
+  $("form#intro").submit(function (event) {
     event.preventDefault();
     $(".intro").hide();
     $(".quiz").show();
   });
 
-  $("form#quiz").submit(function(event) {
+  $("form#quiz").submit(function (event) {
     event.preventDefault();
     let answer1 = parseInt($("input:radio[name=ques1]:checked").val());
     let answer2 = parseInt($("input:radio[name=ques2]:checked").val());
