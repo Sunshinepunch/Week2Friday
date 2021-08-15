@@ -4,6 +4,8 @@
 
 #### By _{Becket Harvey}_
 
+## _Github Pages link_ https://sunshinepunch.github.io/Week2Friday/
+
 ## Technologies Used
 
 * _HTML_
