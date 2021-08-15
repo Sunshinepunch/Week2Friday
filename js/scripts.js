@@ -18,6 +18,9 @@ $(document).ready(function () {
     let answer5 = parseInt($("input:radio[name=ques5]:checked").val());
     let result = add(answer1, answer2, answer3, answer4, answer5);
 
+    const username = $("input#username").val();
+    $(".username").text(username);
+
     if (result <= 5) {
       $("#python").show();
     } else if (result > 5 && result <= 10) {
