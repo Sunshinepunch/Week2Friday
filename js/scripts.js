@@ -8,6 +8,13 @@ $(document).ready(function () {
     $(".intro").hide();
     $(".quiz").show();
   });
+  $("button").click(function(){
+    $("img").fadeOut("slow", function() {
+    $("img").fadeIn("fast");
+    });
+  })
+
+
 
   $("form#quiz").submit(function (event) {
     event.preventDefault();
