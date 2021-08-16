@@ -28,4 +28,4 @@
 _{MIT}_ This is open source for anyone to use and I am not responsible for any problems resulting from its use or implementation
 
 ## Contact Information
-* becket_thebest82@yahoo.com (someday I'll navigate away from this website)
+* Find me on Github under SunshinePunch!
